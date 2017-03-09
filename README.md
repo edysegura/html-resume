@@ -1,3 +1,3 @@
 # Résumé
 
-A simple résumé example in HTML
+A simple résumé example in HTML.
