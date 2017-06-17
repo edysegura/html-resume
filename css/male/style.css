@@ -1,0 +1,119 @@
+html, body, h1, h2, h3, ul, ol, li, p {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	background: transparent url(images/bg.jpg) no-repeat top left fixed;
+	background-size: contain;
+	color: #666;
+	font: 14px/17px Arial, Helvetica, sans-serif;
+}
+
+body {
+	background: rgba(255,255,255,0.7);
+	float: right;
+	min-width: 385px;
+	padding: 40px;
+	position: relative;
+	width: 64%;	
+}
+
+@font-face {
+	font-family: 'DroidSans';
+	src: url('fonts/DroidSans.eot'),
+	     url('fonts/DroidSans.ttf');
+}
+
+h1,
+h2 {
+	color: #961d20;
+	font-family: 'DroidSans', Arial, Helvetica, sans-serif;
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 35px;
+	letter-spacing: 2px;
+	line-height: 54px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+
+h2 {
+	
+	font-size: 25px;
+	margin: 30px 0 20px 0;	
+}
+
+h3 {
+	font-weight: bold;
+	margin: 20px 0 10px 0;
+}
+
+a {
+	color: #961d20;
+	text-decoration: none;
+	transition: background 600ms linear;
+}
+
+a:hover {
+	background: #961d20;
+	color: #fff;
+}
+
+p {
+	margin: 0 0 16px;
+}
+
+li {
+	padding: 0 0 5px 0;	
+	text-align: justify;
+}
+
+ul {
+	margin: 0 0 16px 0;
+}
+
+ul li {
+	line-height: 22px;
+	list-style-image: url(images/bullet.gif);
+	list-style-position: inside;	
+}
+
+ol {
+	counter-reset: number;
+}
+
+ol li {
+	list-style: none;	
+}
+
+ol li:before {
+	background: #eee;
+	color: #961d20;
+	content: counter(number);
+	counter-increment: number;
+	display: inline-block;
+	font-size: 11px;
+	height: 18px;
+	line-height: 19px;	
+	margin-right: 8px;
+	text-align: center;
+	width: 18px;
+}
+
+
+/* picture */
+
+img {
+	border: 3px solid #ccc;
+  	box-shadow: 1px 1px 0px #961d20;
+	height: 100px;
+	position: absolute;
+	right: 40px;
+	top: 40px;	
+	width: 100px;	
+}px;	
+	width: 100px;	
+}
